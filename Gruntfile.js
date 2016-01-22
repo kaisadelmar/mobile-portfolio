@@ -3,11 +3,20 @@
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
-          build: {
-              src: 'src/js/perfmatters.js',
-              dest: 'dist/js/perfmatters.min.js'
-          }
-      },
+            dist: {
+		files: [{
+		    expand: true,
+		    src: ['*.js'],
+		    cwd: 'js/',
+		    dest: 'dist/js/'
+		}, {
+		    expand: true,
+		    src: ['*.js'],
+		    cwd: 'views/js/',
+		    dest: 'dist/views/js/'
+		}]
+            }
+	},
     cssmin: {
             target: {
                 files: [{
