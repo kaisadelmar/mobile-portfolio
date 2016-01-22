@@ -45,7 +45,7 @@
             dynamic: {
                 files: [{
                     expand: true,
-                    cwd: 'src/img/',
+                    cwd: 'views/images/',
                     src: ['**/*.{png,jpg,gif}'],
                     dest: 'dist/img/'
                 }]
