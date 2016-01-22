@@ -28,7 +28,16 @@ Some useful tips to help you get started:
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
 
-Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
+Optimizations done:
+
+* Made style.css inline
+* Minified print.css and added media type
+* Uglified perfmatters.js and made it run asynchronously
+* Made analytics.js run asynchronously
+* Made web fonts run asynchronously
+* Minified HTML
+* Moved all scripts to the bottom of the doc
+* Optimized pizzeria.jpg with imagemagick
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
