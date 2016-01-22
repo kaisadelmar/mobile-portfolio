@@ -1,6 +1,6 @@
 ## Website Performance Optimization portfolio project
 
-This was the 4th Udacity project in the Frontend Web Developer Nanodegree program[Critical Rendering Path course](https://www.udacity.com/course/ud884).
+This was the 4th Udacity project in the Frontend Web Developer Nanodegree program [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 
 
