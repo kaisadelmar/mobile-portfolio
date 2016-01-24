@@ -10,11 +10,11 @@ critical rendering path and make the page render as quickly as possible by apply
 
 Steps to load the project:
 
-1. Check out the repository
+1. Type `git clone https://github.com/silvermagicships/mobile-portfolio.git' in your command line`
 1. Run a local server
 
   ```bash
-  $> cd /path/to/your-project-folder
+  $> cd /path/to/mobile-portfolio
   $> python -m SimpleHTTPServer 8080
   ```
 
@@ -26,7 +26,7 @@ Steps to load the project:
   $> ngrok http 8080
   ```
 
-Copy the public URL ngrok gives you and try running it through PageSpeed Insights.
+Copy the public URL ngrok gives you and try running it through [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/).
 To inspect different elements on the page and to record a timeline, you can use Chrome DevTools.
 
 How to run tasks with Grunt:
