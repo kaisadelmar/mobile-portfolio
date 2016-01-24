@@ -27,6 +27,18 @@ Steps to load the project:
   ```
 
 Copy the public URL ngrok gives you and try running it through PageSpeed Insights.
+To inspect different elements on the page and to record a timeline, you can use Chrome DevTools.
+
+How to run tasks with Grunt:
+
+1. Install Node.js and npm
+2. Install grunt 
+3. Create a package.json file
+4. Install all relevant plugins
+5. Create grunt file
+6. Configure tasks
+7. Run the command 'grunt' in your command line
+
 
 Optimizations done:
 
