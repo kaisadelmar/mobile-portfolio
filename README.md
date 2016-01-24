@@ -10,7 +10,7 @@ critical rendering path and make the page render as quickly as possible by apply
 
 Steps to load the project:
 
-1. Type `git clone https://github.com/silvermagicships/mobile-portfolio.git' in your command line`
+1. Type `git clone https://github.com/silvermagicships/mobile-portfolio.git` in your command line
 1. Run a local server
 
   ```bash
