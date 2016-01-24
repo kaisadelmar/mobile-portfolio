@@ -1,14 +1,14 @@
 ## Website Performance Optimization portfolio project
 
-This was the 4th Udacity project in the Frontend Web Developer Nanodegree program [Critical Rendering Path course](https://www.udacity.com/course/ud884).
-
+This was the 4th Udacity project in the Frontend Web Developer Nanodegree program. The challenge was to optimize an online portfolio site for speed and, in particular, to optimize the
+critical rendering path and make the page render as quickly as possible by applying the techniques picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 
 ### Getting started
 
 ####Part 1: Optimize PageSpeed Insights score for index.html
 
-Some useful tips to help you get started:
+Steps to load the project:
 
 1. Check out the repository
 1. Run a local server
@@ -26,22 +26,27 @@ Some useful tips to help you get started:
   $> ngrok http 8080
   ```
 
-1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! 
+Copy the public URL ngrok gives you and try running it through PageSpeed Insights.
 
 Optimizations done:
 
 * Made style.css inline
-* Minified print.css and added media type
-* Uglified perfmatters.js and made it run asynchronously
+* Minified print.css with Grunt and added media type
+* Uglified perfmatters.js with Grunt and made it run asynchronously
 * Made analytics.js run asynchronously
 * Made web fonts run asynchronously
-* Minified HTML
+* Minified HTML with Grunt
 * Moved all scripts to the bottom of the doc
 * Optimized pizzeria.jpg with imagemagick
 
+Tools used:
+
+* Grunt
+* imagemagick
+
 ####Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. 
 
 Optimizations done:
 
